@@ -1,1 +1,3 @@
 # sforceCI
+
+The sforceCI Node application was developed in part to handle the download and backup of metadata from large SFDC Orgs. Currently, normal tools that download SFDC metadata have limits on how many objects can be retrieved at a time and thus fail to download enough of the metadata before failing. This application batches its downloads into smaller chunks and keeps track of where it left off. It was originally written to automatically commit items to a Subversion repository, but now in all cases, the SVN options aren't utilized and instead the backup is tied into a process that pulls and pushes to a Git repository.

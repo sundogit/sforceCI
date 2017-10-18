@@ -1,0 +1,27 @@
+{
+  "name": "sforceCI v0.8.3",
+  "useCron": false,
+  "cronPattern": "00 30 17 * * 1-5",
+  "updateInProgress": false,
+  "lastRunDate": "2017-10-18T19:33:38.517Z",
+  "orgs": [
+    {
+      "name": "Production",
+      "isActive": true,
+      "isSandbox": false,
+      "retrieveAll": true,
+      "retrieveLimitPerRequest": 1000,
+      "excludeProfiles": false,
+      "keepTempFiles": false,
+      "svnCommit": false,
+      "svnPath": "./src",
+      "svnFolder": "",
+      "svnUsername": "",
+      "svnPassword": "",
+      "sforceUsername": "user@example.com",
+      "sforcePassword": "password",
+      "sforceSecurityToken": "",
+      "lastRunDate": "2015-04-08T16:51:35.070Z"
+    }
+  ]
+}
